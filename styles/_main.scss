@@ -1,0 +1,80 @@
+@import './variables';
+
+main {
+  width: 1500px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+  .left-side {
+    width: 50%;
+
+    h2 {
+      color: $textColor;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      width: 445px;
+      color: $textColor;
+      font-size: 70px;
+      font-weight: 900;
+      line-height: 109%;
+    }
+
+    p {
+      color: $textColor;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 180%;
+      margin-bottom: 45px;
+      margin-top: 25px;
+    }
+
+    .buttons {
+      width: 445px;
+      display: flex;
+
+      .button1 {
+        position: relative;
+        cursor: pointer;
+        .play {
+          position: absolute;
+          top: 12px;
+          left: 38px;
+        }
+
+        p {
+          position: absolute;
+          left: 68px;
+          top: -17px;
+        }
+      }
+
+      .button2 {
+        position: relative;
+        cursor: pointer;
+        p {
+          position: absolute;
+          top: -16px;
+          left: 51px;
+        }
+      }
+    }
+  }
+
+}
+
+.right-side {
+  width: 50%;
+  margin-left: 200px;
+  img {
+    width: 550px;
+  }
+}

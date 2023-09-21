@@ -1,0 +1,97 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1500px;
+  margin: 40px auto;
+}
+header .logo {
+  width: 100px;
+  height: 48px;
+  flex-shrink: 0;
+}
+header .icon {
+  margin: 10px 10px 0 10px;
+}
+
+main {
+  width: 1500px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+main .left-side {
+  width: 50%;
+}
+main .left-side h2 {
+  color: #F9F9F9;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+main .left-side h1 {
+  width: 445px;
+  color: #F9F9F9;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 109%;
+}
+main .left-side p {
+  color: #F9F9F9;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 180%;
+  margin-bottom: 45px;
+  margin-top: 25px;
+}
+main .left-side .buttons {
+  width: 445px;
+  display: flex;
+}
+main .left-side .buttons .button1 {
+  position: relative;
+  cursor: pointer;
+}
+main .left-side .buttons .button1 .play {
+  position: absolute;
+  top: 12px;
+  left: 38px;
+}
+main .left-side .buttons .button1 p {
+  position: absolute;
+  left: 68px;
+  top: -17px;
+}
+main .left-side .buttons .button2 {
+  position: relative;
+  cursor: pointer;
+}
+main .left-side .buttons .button2 p {
+  position: absolute;
+  top: -16px;
+  left: 51px;
+}
+
+.right-side {
+  width: 50%;
+  margin-left: 200px;
+}
+.right-side img {
+  width: 550px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(130deg, #628E75 0.66%, #1A4855 83.32%);
+  box-shadow: 26px 24px 90px 0px rgba(31, 26, 51, 0.13);
+}/*# sourceMappingURL=index.css.map */

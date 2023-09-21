@@ -1,0 +1,19 @@
+@import './variables';
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1500px;
+  margin: 40px auto;
+
+  .logo {
+    width: 100px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  .icon {
+    margin: 10px 10px 0 10px;
+  }
+}
